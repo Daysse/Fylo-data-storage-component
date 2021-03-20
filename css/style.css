@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+* {
+  font-family: 'Raleway';
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #0c122c;
+}
+
+main {
+  background-image: url(/images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  min-height: 800px;
+  max-width: 1440px;
+}
+
+.card {
+  position: absolute;
+  margin-left: 290px;
+  margin-top: 300px;
+  width: 320px;
+  height: 180px;
+  background-color: #1d2c67;
+  border-radius: 10px 100px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-img {
+  margin-left: 40px;
+  margin-bottom: 25px;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.doc {
+  background-color: #0c122c;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.folder {
+  background-color: #0c122c;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.upload {
+  background-color: #0c122c;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.upload-card {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 650px;
+  background-color: #1d2c67;
+  border-radius: 10px;
+  width: 600px;
+  height: 130px;
+}
+
+.storage {
+  margin-left: 40px;
+  margin-top: 30px;
+  color: #dddbff;
+}
+
+.storage-bar {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 350px;
+  height: 20px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffa399), to(#ff4d97));
+  background-image: linear-gradient(to right, #ffa399, #ff4d97);
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.storage-empty {
+  width: 90%;
+  background: #0c122c;
+  border-radius: 50px;
+  border: #0c122c;
+  outline: none;
+}
+
+.white-dot {
+  background-color: white;
+  width: 2vmin;
+  height: 2vmin;
+  border-radius: 100%;
+  position: relative;
+  left: 96%;
+}
+
+.footer-storage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+  width: 500px;
+}
+
+.storage-left {
+  background-color: white;
+  width: 170px;
+  height: 70px;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: -50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.storage-left p {
+  color: #848794;
+  margin-left: 10px;
+}
+
+.storage-left::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 120px;
+  width: 0;
+  padding: 0;
+  border-top: 50px solid white;
+  border-left: 50px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  z-index: 0;
+}
+
+span {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #dddbff;
+}
+/*# sourceMappingURL=style.css.map */
